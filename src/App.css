@@ -1,0 +1,97 @@
+.container{
+    width: 20em;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 1em;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+}
+ 
+.user-image{
+    padding: 3em 0;
+    background-image: linear-gradient(70deg,#61A1DD,#0083FD);
+}
+ 
+.user-image img{
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    box-shadow:  0 0.6em 1.8em ;
+    object-fit: cover;
+}
+ 
+.content{
+    color: #565656;
+    padding: 2.2em;
+}
+ 
+.name{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+ 
+.username{
+    font-size: 1em;
+    color: #9e9e9e;
+}
+ 
+.links{
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0;
+}
+ 
+a{
+    text-decoration: none;
+    color: #565656;
+    transition: all 0.3s;
+    font-size: 2em;
+    margin-right: 1.2em;
+}
+ 
+a:last-child{
+    margin: 0;
+}
+ 
+.insta:hover{
+    color:rgb(255, 70, 101);
+    transform: scale(2,2);
+}
+ 
+.git:hover{
+    color:rgb(0, 0, 0);
+    transform: scale(2,2);
+}
+ 
+.linkedin:hover{
+    color:rgba(4, 0, 253, 0.842);
+    transform: scale(2,2);
+}
+ 
+.facebook:hover{
+    color:rgb(4, 0, 255);
+    transform: scale(2,2);
+}
+ 
+.details{
+    margin-bottom: 1.8em;
+}
+ 
+ 
+/* CSS for messagin link */
+ 
+.effect {
+    position: relative;
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8em;
+    background-color: #333;
+    border-radius: 0.3em;
+    text-decoration: none;
+    overflow: hidden;
+    transition: all 0.4s;
+}
